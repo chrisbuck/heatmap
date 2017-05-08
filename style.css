@@ -1,0 +1,47 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+#map-canvas {
+  height: 100%;
+  width: 100%;
+}
+.devBtn {
+  border: 1px solid #F2F2F2;
+}
+#rightBarWrapper {
+    width: 125px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#cornerIcons {
+    width: 125px;
+    height: 60px;
+    z-index: 9;
+    font-size: 24;
+    position: relative;
+    float: right;
+    visibility: visible;
+}
+#settingsIcon {
+    position: relative;
+    padding-top: 2px;
+    padding-right: 3px;
+    float: right;
+    opacity: 0.3;
+    
+}
+#settingsBar {
+    width: 0px;
+    background-color: azure;
+    position: relative;
+    float: right;
+}
+.imgSelect {
+    float: left;
+}
